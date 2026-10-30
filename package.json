@@ -1,0 +1,19 @@
+{
+  "name": "warehouse-hub",
+  "version": "1.0.0",
+  "description": "Vendor onboarding, multi-warehouse/fleet inventory, min-max reorder POs, and pick/pack/ship",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "seed": "node --no-warnings scripts/seed.js",
+    "test": "node --no-warnings test/e2e.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
